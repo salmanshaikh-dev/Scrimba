@@ -15,7 +15,6 @@
 
 // console.log(myDogAge)
 
-
 //* another example */
 // let bonusPoints = 50
 // console.log(bonusPoints)
@@ -29,7 +28,10 @@
 // bonusPoints = bonusPoints + 45
 // console.log(bonusPoints)
 
+let countEl = document.getElementById("count-el");
 
+let count = 0;
 function increment() {
-    console.log("The button was clicked")
+  count = count + 1;
+  countEl.innerText = count;
 }
