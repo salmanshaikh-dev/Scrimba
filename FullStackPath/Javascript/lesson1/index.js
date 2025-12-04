@@ -35,12 +35,6 @@ function increment() {
   count = count + 1;
   countEl.innerText = count;
 }
-
-
-let countElD = document.getElementById("decrementbtn");
-
-let countt = count;
-function decrement() {
-  countt = countt - 1;
-  countElD.innerText = countt;
+function save() {
+  console.log(count)
 }
